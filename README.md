@@ -24,7 +24,7 @@ go get github.com/AbhigyaShridhar/go-state-machine
 package main
 
 import (
-    "github.com/AbhigyaShridhar/go-state-machine"
+    "github.com/AbhigyaShridhar/go-state-machine/StateMachine"
 )
 
 func main() {
