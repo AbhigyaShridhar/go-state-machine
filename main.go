@@ -1,11 +1,16 @@
 package main
 
 import (
-	"errors"
-	"fmt"
+	"github.com/AbhigyaShridhar/go-state-machine/StateMachine"
 )
 
-func main() {
-	fmt.Println("Hello World")
-	_ = errors.New("something went wrong")
-}
+type (
+	Context         = StateMachine.Context
+	State           = StateMachine.State
+	StateMachineAPI = StateMachine.StateMachine
+	TransitionError = StateMachine.TransitionError
+)
+
+var (
+	NewStateMachine = StateMachine.NewStateMachine
+)
