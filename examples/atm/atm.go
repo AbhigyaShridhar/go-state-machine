@@ -3,7 +3,7 @@ package main
 import (
 	"errors"
 	"fmt"
-	"github.com/AbhigyaShridhar/go-state-machine"
+	"github.com/AbhigyaShridhar/go-state-machine/StateMachine"
 )
 
 type WaitingState struct{}
